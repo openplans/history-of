@@ -117,6 +117,8 @@ Urban Systems Synposium
 
 June - Civic Commons launches
 
+Sonali and Nick BS start Hacker School.
+
 July -- summer fellows -  Andy Likuski, Naama Lissar, Merran Swartwood, and Therese Diede
 
 August -- David Emory at the White House, Champion of Transportation change
