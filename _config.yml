@@ -1,0 +1,1 @@
+exclude: [README.md, bower_components, bower.json]
