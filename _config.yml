@@ -1,1 +1,1 @@
-exclude: [README.md, bower_components, bower.json]
+exclude: [README.md, Gemfile, Gemfile.lock, bower_components, bower.json]
