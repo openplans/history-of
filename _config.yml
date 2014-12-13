@@ -2,3 +2,4 @@ exclude: [README.md, Gemfile, Gemfile.lock, bower.json]
 sass:
     sass_dir: _sass
     style: compressed
+    destination: .
