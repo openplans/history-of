@@ -20,7 +20,7 @@ is not clean):
     git add --all _site/
     git commit -m "Update the distribution files"
     git push
-    git subtree push --prefix dist origin gh-pages
+    git subtree push --prefix _site origin gh-pages
 
 *(Subtree instructions from https://gist.github.com/cobyism/4730490)*
 
