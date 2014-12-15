@@ -3,20 +3,10 @@
 
 @import "foundation";
 
-.year {
-  position: relative;
-}
 
-.section-anchor {
-  position: absolute;
-  top: -$topbar-height;
-}
-
-.top-bar .current a {
-  color: $primary-color !important;
-  &:hover {
-  }
-}
+/*--------------------------------------------------
+  Typography
+--------------------------------------------------*/
 
 .text-large {
   p {
@@ -24,12 +14,78 @@
   }
 }
 
+.unstyled-link {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+
+/*--------------------------------------------------
+  Layout
+--------------------------------------------------*/
+
+body {
+  padding-top: $topbar-height;
+}
+.year {
+  position: relative;
+}
+.section-anchor {
+  position: absolute;
+  top: -$topbar-height;
+}
 .colophon {
   background-color: #666;
   color: #eee;
 }
 
-.unstyled-link {
-  color: inherit !important;
-  text-decoration: inherit !important;
+
+/*--------------------------------------------------
+  OpenPlans-Branded Top Bar
+--------------------------------------------------*/
+
+.openplans-top-bar {
+  // transparent for the logo hole
+  &, .contain-to-grid {
+    background-color: transparent !important;
+  }
+  box-shadow: 0 5px 0 rgba(51,51,51,0.2);
+  z-index: 99;
+  .top-bar {
+    background: transparent url('images/orange-ff8b38-2000x65.gif') 0 0 no-repeat scroll;
+    box-shadow: 62.5rem 0 #ff8b38, -62.5rem 0 #ff8b38; // extend the orange past the width of .top-bar
+  }
+  .name {
+    margin-right: 1rem;
+  }
+  .name h1,
+  .name h1 a {
+    height: 100%;
+    padding: 0;
+  }
+  .name h1 a:hover img {
+    background-color: #cceeff;
+    background-color: rgba(204,238,255,0.75);
+  }
+  .openplans-logo {
+    height: 100%;
+    width: auto;
+    display: block;
+  }
+  .top-bar.expanded .title-area {
+    background-color: transparent;
+  }
+  .top-bar.expanded {
+    height: auto;
+  }
+  .top-bar.expanded .top-bar-section {
+    padding-top: 0;
+  }
+}
+
+.top-bar .current a {
+  background-color: scale-color($orange, $lightness: -14%) !important;
+  &:hover {
+    background-color: scale-color($orange, $lightness: -21%) !important;
+  }
 }
