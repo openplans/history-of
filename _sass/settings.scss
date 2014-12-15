@@ -197,10 +197,10 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-// $header-font-family: $body-font-family;
-// $header-font-weight: $font-weight-normal;
+ $header-font-family: 'Bitter', serif;
+ $header-font-weight: 700;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+ $header-font-color: $body-font-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -230,8 +230,8 @@ $include-html-global-classes: $include-html-classes;
 // $subheader-bottom-margin: .5rem;
 
 // A general <small> styling
-// $small-font-size: 60%;
-// $small-font-color: scale-color($header-font-color, $lightness: 35%);
+ $small-font-size: 75%;
+ $small-font-color: inherit;
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
@@ -258,12 +258,12 @@ $include-html-global-classes: $include-html-classes;
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 // $anchor-font-color: $primary-color;
-// $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
+ $anchor-font-color-hover: scale-color($primary-color, $lightness: -21%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: $gainsboro;
+ $hr-border-color: rgba(0,0,0,0.15);
 // $hr-margin: rem-calc(20);
 
 // We use these to style lists

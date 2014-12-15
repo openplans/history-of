@@ -63,6 +63,9 @@ body {
     height: 100%;
     padding: 0;
   }
+  .top-bar .name .current a {
+    background-color: transparent !important;
+  }
   .name h1 a:hover img {
     background-color: #cceeff;
     background-color: rgba(204,238,255,0.75);
@@ -88,4 +91,10 @@ body {
   &:hover {
     background-color: scale-color($orange, $lightness: -21%) !important;
   }
+}
+
+.top-bar .mega-octicon {
+  position: relative;
+  top: 0.25rem;
+  text-shadow: 1px 2px rgba(51,51,51,0.2);
 }
