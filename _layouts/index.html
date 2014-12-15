@@ -39,10 +39,6 @@
         </ul>
 
         <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li class="active"><a href="https://github.com/openplans/" target="_blank"><span class="mega-octicon octicon-mark-github"></span></a></li>
-          </ul>
           <!-- Left Nav Section -->
           <ul class="left">
             {% for node in site.pages reversed %}
@@ -50,6 +46,10 @@
             <li data-magellan-arrival="year-{{ node.year }}"><a href="#year-{{ node.year }}">{{ node.title }}</a></li>
             {% endif %}
             {% endfor %}
+          </ul>
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="https://github.com/openplans/" target="_blank"><span class="mega-octicon octicon-mark-github"></span></a></li>
           </ul>
         </section>
       </nav>
