@@ -7,7 +7,9 @@
 
 [help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
 
-`bundle exec jekyll serve`
+Run `bundle exec jekyll serve`.
+
+Site should be available at `http://localhost:4000`.
 
 
 ## Deploying
