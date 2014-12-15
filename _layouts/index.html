@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+  <title>History of OpenPlans</title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="History of OpenPlans">
+  <meta name="author" content="OpenPlans">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
+
+  <script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div data-magellan-expedition="fixed" data-options="active_class:current;threshold:0;destination_threshold:-60;throttle_delay:50;fixed_top:0;">
+    <div class="contain-to-grid">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#"><strong>OpenPlans</strong></a></h1>
+          </li>
+           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="#">Github</a></li>
+          </ul>
+          <!-- Left Nav Section -->
+          <ul class="left">
+            {% for node in site.pages reversed %}
+            {% if node.layout == 'year' %}  
+            <li data-magellan-arrival="year-{{ node.year }}"><a href="#year-{{ node.year }}">{{ node.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row extra-padding-top">
+    <div class="columns">
+      <h1>{{ page.title }}</h1>
+      <div class="text-large">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% for node in site.pages reversed %}
+  {% if node.layout == 'year' %}
+  <div class="year year-{{ node.year }} extra-padding-top extra-padding-bottom">
+    <a id="year-{{ node.year }}" class="section-anchor" data-magellan-destination="year-{{ node.year }}"></a>
+    <div class="row">
+      <div class="columns large-3">
+        <h2><strong><a href="#year-{{ node.year }}" class="unstyled-link">{{ node.year }}</a></strong></h2>
+      </div>
+      <div class="columns large-9 some-padding-top">
+        {{ node.content }}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+
+  <footer class="colophon extra-padding-top extra-padding-bottom">
+    <div class="row extra-padding-top extra-padding-bottom extra-margin-top extra-margin-bottom">
+      <div class="columns">
+        Check out our Github...
+      </div>
+    </div>
+  </footer>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.js"></script>
+  <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

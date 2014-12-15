@@ -3,3 +3,33 @@
 
 @import "foundation";
 
+.year {
+  position: relative;
+}
+
+.section-anchor {
+  position: absolute;
+  top: -$topbar-height;
+}
+
+.top-bar .current a {
+  color: $primary-color !important;
+  &:hover {
+  }
+}
+
+.text-large {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.colophon {
+  background-color: #666;
+  color: #eee;
+}
+
+.unstyled-link {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
