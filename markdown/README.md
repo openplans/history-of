@@ -10,4 +10,4 @@ Format your contributions [with Markdown](https://help.github.com/articles/githu
 You can add issues directly to the existing year files (e.g. `2006.md`). 
 Or, make a reverse-dated file, like `20061023.md` for an event taking place on Oct 23, 2006.
 
-
+We'll share a [nicely formatted version of this history in early 2015](http://blog.openplans.org/2014/12/whats-next-for-openplans-in-2015/).
