@@ -4,4 +4,4 @@ layout: projects
 year: 2014
 ---
 
-http://blog.openplans.org/2014/03/using-shareabouts-for-the-our-miami-public-space-challenge/
+http://blog.openplans.org/2013/11/making-brooklyn-safer/
