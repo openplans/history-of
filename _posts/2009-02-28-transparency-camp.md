@@ -1,7 +1,6 @@
 ---
 title: 'Transparency Camp'
 layout: project
-year: 2009
 ---
 
 Nick and Phil attend TransparencyCamp 

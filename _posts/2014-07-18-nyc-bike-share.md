@@ -1,7 +1,6 @@
 ---
 title: 'NYC Bike Share'
-layout: people
-year: 2014
+layout: project
 ---
 
 NYC bike share re-launch, for expanded system. Return of the original Shareabouts map, now upgraded.

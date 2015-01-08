@@ -1,7 +1,6 @@
 ---
 title: 'Planning Tech workshop'
 layout: project
-year: 2009
 ---
 
 Planning Tech workshop at 148 Lafayette Street. A prototype for TransportationCamp and later, PlanningCamp.

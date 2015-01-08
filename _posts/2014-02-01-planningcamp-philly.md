@@ -1,7 +1,6 @@
 ---
 title: 'PlanningCamp Philly'
 layout: event
-year: 2014
 ---
 
 3rd and final PlanningCamp.

@@ -1,7 +1,6 @@
 ---
 title: 'TransportationCamp'
 layout: event
-year: 2011
 ---
 
 In November 2013, TC headed west -- 

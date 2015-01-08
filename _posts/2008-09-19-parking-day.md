@@ -1,7 +1,6 @@
 ---
 title: 'Park(ing) Day'
 layout: project
-year: 2008
 ---
 
 Park(ing) Day NYC takes place, with an OpenPlans site showing all locations. Using Pylons and jQuery, extending the crowdsourcing map we originally created for Block Party NYC. 

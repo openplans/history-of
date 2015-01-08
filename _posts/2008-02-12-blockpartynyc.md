@@ -1,7 +1,6 @@
 ---
 title: 'Block Party NYC'
 layout: project
-year: 2008
 ---
 
 BlockPartyNYC.org launches.

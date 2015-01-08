@@ -1,7 +1,6 @@
 ---
 title: 'Stomping Ground'
 layout: project
-year: 2014
 ---
 
 Stomping Ground launches.

@@ -39,7 +39,7 @@
             <h1 data-magellan-arrival="about"><a href="#about"><img src="images/openplans-logo.png" class="openplans-logo" alt="OpenPlans"></a></h1>
           </li>
            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Years</span></a></li>
         </ul>
 
         <section class="top-bar-section">
@@ -47,7 +47,7 @@
           <ul class="left">
             {% for post in site.posts reversed %}
             {% if post.layout == 'year' %}  
-            <li data-magellan-arrival="year-{{ post.year }}"><a href="#year-{{ post.year }}">{{ post.title }}</a></li>
+            <li data-magellan-arrival="year-{{ post.year }}"><a href="#year-{{ post.year }}">{{ post.menu-label }}</a></li>
             {% endif %}
             {% endfor %}
           </ul>
@@ -62,15 +62,12 @@
 
   <a id="about" class="section-anchor" data-magellan-destination="about"></a>
   <div class="row extra-padding-top">
-    <div class="columns">
-      <h1>History of OpenPlans</h1>
-      <div class="text-large">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+    <div class="columns text-large">
+      <p>For over ten years, OpenPlans has been an amazing incubator of people, ideas, and projects. Maintaining our deeply-held belief in better cities thanks to technology and participation, we've built impactful, well-crafted software&mdash;with occasional organizational refreshes along the way.</p>
     </div>
   </div>
 
-  {% for post in site.posts reversed %}
+  {% for post in site.posts %}
   <div class="extra-padding-top extra-padding-bottom" style="position:relative;">
     {% include {{post.layout}}.html %}
   </div>

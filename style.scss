@@ -8,6 +8,11 @@
   Typography
 --------------------------------------------------*/
 
+.text-small {
+  p {
+    font-size: rem-calc(13);
+  }
+}
 .text-large {
   p {
     font-size: 1.5rem;
@@ -97,6 +102,16 @@ body {
   position: relative;
   top: 0.25rem;
   text-shadow: 1px 2px rgba(51,51,51,0.2);
+}
+
+
+/*--------------------------------------------------
+  Post: Year
+--------------------------------------------------*/
+.year-heading {
+  a {
+    font-size: 1.5em;
+  }
 }
 
 

@@ -1,7 +1,6 @@
 ---
 title: 'New TOPP website'
 layout: project
-year: 2008
 ---
 
 ![New TOPP website](http://wrkng.net/wp-content/uploads/2011/08/new-topp-website1.png "TOPP website")
