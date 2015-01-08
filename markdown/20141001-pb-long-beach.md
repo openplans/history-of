@@ -1,6 +1,6 @@
 ---
 title: 'Participatory Budgeting in Cambridge and Long Beach'
-layout: projects
+layout: project
 year: 2014
 ---
 

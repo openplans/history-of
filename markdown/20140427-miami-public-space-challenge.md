@@ -1,6 +1,6 @@
 ---
 title: 'Public Space Challenge'
-layout: projects
+layout: project
 year: 2014
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Grand Rapids and Macon'
-layout: projects
+layout: project
 year: 2014
 ---
 

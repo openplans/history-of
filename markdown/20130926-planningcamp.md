@@ -1,6 +1,6 @@
 ---
 title: 'PlanningCamp'
-layout: events
+layout: event
 year: 2013
 ---
 

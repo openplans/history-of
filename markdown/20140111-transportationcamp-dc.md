@@ -1,6 +1,6 @@
 ---
 title: 'TransportationCamp returns to DC'
-layout: events
+layout: event
 year: 2014
 ---
 

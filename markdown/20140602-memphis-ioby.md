@@ -1,6 +1,6 @@
 ---
 title: 'Creating a stronger Memphis with ioby and Shareabouts'
-layout: projects
+layout: project
 year: 2014
 ---
 

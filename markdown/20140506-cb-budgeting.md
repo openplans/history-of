@@ -1,6 +1,6 @@
 ---
 title: 'CB6 budgeting'
-layout: projects
+layout: project
 year: 2014
 ---
 

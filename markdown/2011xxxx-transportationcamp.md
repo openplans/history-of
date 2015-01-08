@@ -1,6 +1,6 @@
 ---
 title: 'TransportationCamp'
-layout: events
+layout: event
 year: 2011
 ---
 

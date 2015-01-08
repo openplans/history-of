@@ -1,6 +1,6 @@
 ---
 title: 'Civic Design workshop'
-layout: events
+layout: event
 year: 2014
 ---
 

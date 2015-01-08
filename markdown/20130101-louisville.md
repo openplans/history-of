@@ -1,6 +1,6 @@
 ---
 title: 'VizLou'
-layout: projects
+layout: project
 year: 2013
 ---
 

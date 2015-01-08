@@ -1,6 +1,6 @@
 ---
 title: 'PlanningCamp Philly'
-layout: events
+layout: event
 year: 2014
 ---
 

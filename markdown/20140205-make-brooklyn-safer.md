@@ -1,6 +1,6 @@
 ---
 title: 'Making Brooklyn Safer, with Shareabouts'
-layout: projects
+layout: project
 year: 2014
 ---
 

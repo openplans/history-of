@@ -1,6 +1,6 @@
 ---
 title: 'Chicago collects bike parking suggestions with Shareabouts'
-layout: projects
+layout: project
 year: 2014
 ---
 

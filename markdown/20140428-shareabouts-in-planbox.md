@@ -1,6 +1,6 @@
 ---
 title: 'Easy Shareabouts maps'
-layout: projects
+layout: project
 year: 2014
 ---
 

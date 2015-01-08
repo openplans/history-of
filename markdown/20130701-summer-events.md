@@ -1,6 +1,6 @@
 ---
 title: 'Summer 2013 events'
-layout: events
+layout: event
 year: 2013
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Vision Zero map'
-layout: projects
+layout: project
 year: 2014
 ---
 
