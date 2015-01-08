@@ -1,3 +1,7 @@
+---
+
+---
+
 <!doctype html>
 <html class="no-js">
   <head>
@@ -41,9 +45,9 @@
         <section class="top-bar-section">
           <!-- Left Nav Section -->
           <ul class="left">
-            {% for node in site.pages reversed %}
-            {% if node.layout == 'year' %}  
-            <li data-magellan-arrival="year-{{ node.year }}"><a href="#year-{{ node.year }}">{{ node.title }}</a></li>
+            {% for post in site.posts reversed %}
+            {% if post.layout == 'year' %}  
+            <li data-magellan-arrival="year-{{ post.year }}"><a href="#year-{{ post.year }}">{{ post.title }}</a></li>
             {% endif %}
             {% endfor %}
           </ul>
@@ -59,27 +63,17 @@
   <a id="about" class="section-anchor" data-magellan-destination="about"></a>
   <div class="row extra-padding-top">
     <div class="columns">
-      <h1>{{ page.title }}</h1>
+      <h1>History of OpenPlans</h1>
       <div class="text-large">
-        {{ content }}
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
   </div>
 
-  {% for node in site.pages reversed %}
-  {% if node.layout == 'year' %}
-  <div class="year year-{{ node.year }} extra-padding-top extra-padding-bottom">
-    <a id="year-{{ node.year }}" class="section-anchor" data-magellan-destination="year-{{ node.year }}"></a>
-    <div class="row">
-      <div class="columns large-3">
-        <h2><a href="#year-{{ node.year }}" class="unstyled-link">{{ node.year }}</a></h2>
-      </div>
-      <div class="columns large-9 some-padding-top">
-        {{ node.content }}
-      </div>
-    </div>
+  {% for post in site.posts reversed %}
+  <div class="extra-padding-top extra-padding-bottom" style="position:relative;">
+    {% include {{post.layout}}.html %}
   </div>
-  {% endif %}
   {% endfor %}
 
   <footer class="colophon extra-padding-top extra-padding-bottom">
