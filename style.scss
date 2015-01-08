@@ -109,8 +109,36 @@ body {
   Post: Year
 --------------------------------------------------*/
 .year-heading {
+  letter-spacing: 0.375em;
   a {
-    font-size: 1.5em;
+    color: scale-color($orange, $lightness: 21%);
+    text-decoration: none;
+    text-shadow: 1px -1px rgba(51,51,51,0.1);
+  }
+  .year-flourish {
+    color: $vapor;
+    display:inline-block;
+    position: relative;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    &.before {
+      margin-right: 0.125em;
+      -webkit-transform: scale(1.5,1);
+          -ms-transform: scale(1.5,1);
+              transform: scale(1.5,1);
+    }
+    &.after {
+      margin-left: 0.125em;
+      -webkit-transform: scale(-1.5,1);
+          -ms-transform: scale(-1.5,1);
+              transform: scale(-1.5,1);
+    }
+    span {
+      position: absolute;
+      top: 0;
+      right: 50%;
+    }
   }
 }
 

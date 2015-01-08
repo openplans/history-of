@@ -39,7 +39,7 @@
             <h1 data-magellan-arrival="about"><a href="#about"><img src="images/openplans-logo.png" class="openplans-logo" alt="OpenPlans"></a></h1>
           </li>
            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Years</span></a></li>
+          <!-- <li class="toggle-topbar menu-icon"><a href="#"><span>Years</span></a></li> -->
         </ul>
 
         <section class="top-bar-section">
@@ -68,9 +68,7 @@
   </div>
 
   {% for post in site.posts %}
-  <div class="extra-padding-top extra-padding-bottom" style="position:relative;">
-    {% include {{post.layout}}.html %}
-  </div>
+   {% include {{post.layout}}.html %}
   {% endfor %}
 
   <footer class="colophon extra-padding-top extra-padding-bottom">
