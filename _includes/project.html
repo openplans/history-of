@@ -1,15 +1,6 @@
 <article class="row extra-padding-top extra-padding-bottom">
-  <div class="columns large-7 some-padding-top">
+  <div class="columns some-padding-top">
     <h3>{{ post.title }}</h3>
     {{ post.content }}
-  </div>
-  <div class="columns large-5 some-padding-top">
-    <section class="gallery">
-      <ul class="clearing-thumbs {{ post.gallery_size }}" data-clearing>
-        {% for gallery_image in post.gallery_image %}
-        <li><a class="th" href="{{ post.gallery_image[forloop.index0] }}"><img data-caption="{{ post.gallery_caption[forloop.index0] }}" src="{{ post.gallery_thumb[forloop.index0] }}"></a></li>
-        {% endfor %}
-      </ul>
-    </section>
   </div>
 </article>
