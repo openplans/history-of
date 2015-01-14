@@ -1,6 +1,7 @@
 ---
 title: 'TransportationCamp'
-layout: event
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 In November 2013, TC headed west -- 

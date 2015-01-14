@@ -1,6 +1,7 @@
 ---
 title: 'Summer 2013 events'
-layout: event
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 walking summit

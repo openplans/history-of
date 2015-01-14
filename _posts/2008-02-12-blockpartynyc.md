@@ -1,6 +1,7 @@
 ---
 title: 'Block Party NYC'
-layout: project
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 BlockPartyNYC.org launches.

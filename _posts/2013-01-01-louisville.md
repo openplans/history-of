@@ -1,6 +1,7 @@
 ---
 title: 'VizLou'
-layout: project
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 

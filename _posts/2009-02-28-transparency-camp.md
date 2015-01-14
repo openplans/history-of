@@ -1,8 +1,8 @@
 ---
 title: 'Transparency Camp'
-layout: project
+layout: snapshot
+image: 'images/2009/02/phil-transparencycamp.jpg'
+image_column_size: 4
 ---
 
-Nick and Phil attend TransparencyCamp 
-
-(pic of a youthful Phil Ashlock -- http://wrkng.net/wp-content/uploads/2011/08/3316940972_d55f37e22e.jpgv0)
+Nick and Phil attend TransparencyCamp &rsquo;09. 

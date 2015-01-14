@@ -1,6 +1,7 @@
 ---
 title: 'Stomping Ground'
-layout: project
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 Stomping Ground launches.

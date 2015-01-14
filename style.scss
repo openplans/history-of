@@ -160,6 +160,19 @@ body {
 
 
 /*--------------------------------------------------
+  Post: Snapshot
+--------------------------------------------------*/
+.snapshot {
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotate(-2deg);
+      -ms-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+}
+
+
+/*--------------------------------------------------
   Post: People
 --------------------------------------------------*/
 

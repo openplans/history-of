@@ -1,6 +1,7 @@
 ---
 title: 'PlanningCamp Philly'
-layout: event
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 3rd and final PlanningCamp.

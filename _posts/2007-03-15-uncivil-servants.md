@@ -1,6 +1,7 @@
 ---
 title: 'uncivilservants.org'
-layout: project
+layout: basic
+column_class: 'medium-11 large-9'
 ---
 
 OpenPlans and Transportation Alternatives launch uncivilservants.org. 
