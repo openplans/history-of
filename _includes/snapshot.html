@@ -1,11 +1,14 @@
-<article class="row extra-padding-top extra-padding-bottom">
-  <div class="columns medium-{{ post.image_column_size }} some-padding-top">
-    <div class="panel radius snapshot">
-      <img src="{{ post.image }}">
+<article class="extra-padding-top extra-padding-bottom" style="position:relative;">
+  <a id="post-{{ post.title | slugify }}" class="section-anchor"></a>
+  <div class="row">
+    <div class="columns medium-{{ post.image_column_size }} some-padding-top">
+      <div class="panel radius snapshot">
+        <img src="{{ post.image }}">
+      </div>
     </div>
-  </div>
-  <div class="columns medium-{{ 12 | minus:post.image_column_size }} some-padding-top">
-    <h3>{{ post.title }}</h3>
-    {{ post.content }}
+    <div class="columns medium-{{ 12 | minus:post.image_column_size }} some-padding-top">
+      <h3>{{ post.title }}</h3>
+      {{ post.content }}
+    </div>
   </div>
 </article>

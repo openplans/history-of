@@ -1,6 +1,9 @@
-<article class="row extra-padding-top extra-padding-bottom">
-  <div class="columns medium-10 medium-centered large-8 some-padding-top text-large text-center">
-    <h2>{{ post.title }}</h2>
-    {{ post.content }}
+<article class="extra-padding-top extra-padding-bottom" style="position:relative;">
+  <a id="post-{{ post.title | slugify }}" class="section-anchor"></a>
+  <div class="row">
+    <div class="columns medium-10 medium-centered large-8 some-padding-top text-large text-center">
+      <h2>{{ post.title }}</h2>
+      {{ post.content }}
+    </div>
   </div>
 </article>

@@ -1,19 +1,22 @@
-<article class="row extra-padding-top extra-padding-bottom">
-  <div class="columns some-padding-top">
-    <h3>{{ post.title }}</h3>
-  </div>
-  {% if post.has_content == true %}
-  <div class="columns medium-7 some-padding-top">
-    {{ post.content }}
-  </div>
-  {% endif %}
-  <div class="columns{% if post.has_content == true %} medium-5{% endif %} some-padding-top">
-    <section class="gallery">
-      <ul class="clearing-thumbs small-block-grid-{{ post.gallery_columns }}" data-clearing>
-        {% for gallery_image in post.gallery_image %}
-        <li><a class="th" href="{{ post.gallery_image[forloop.index0] }}"><img data-caption="{{ post.gallery_caption[forloop.index0] }}" src="{{ post.gallery_thumb[forloop.index0] }}"></a></li>
-        {% endfor %}
-      </ul>
-    </section>
+<article class="extra-padding-top extra-padding-bottom" style="position:relative;">
+  <a id="post-{{ post.title | slugify }}" class="section-anchor"></a>
+  <div class="row">
+    <div class="columns some-padding-top">
+      <h3>{{ post.title }}</h3>
+    </div>
+    {% if post.has_content == true %}
+    <div class="columns medium-7 some-padding-top">
+      {{ post.content }}
+    </div>
+    {% endif %}
+    <div class="columns{% if post.has_content == true %} medium-5{% endif %} some-padding-top">
+      <section class="gallery">
+        <ul class="clearing-thumbs small-block-grid-{{ post.gallery_columns }}" data-clearing>
+          {% for gallery_image in post.gallery_image %}
+          <li><a class="th" href="{{ post.gallery_image[forloop.index0] }}"><img data-caption="{{ post.gallery_caption[forloop.index0] }}" src="{{ post.gallery_thumb[forloop.index0] }}"></a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
   </div>
 </article>
