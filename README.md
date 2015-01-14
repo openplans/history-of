@@ -1,9 +1,13 @@
-# Help tell the story of OpenPlans! 
+# History of OpenPlans, Volume I
 
-This history is a work in progress. 
+History is a work in progress. 
+
+## Help tell the story of OpenPlans! 
 
 [Submit a pull request](https://help.github.com/articles/creating-a-pull-request/) 
 to share your updates, or [add an issue](https://github.com/openplans/history-of/issues).
+
+All accepted pull requests submitted before Jan 29th will earn the submitter an OpenPlans t-shirt! 
 
 New contributions go in `_posts/`, formatted [with Markdown](https://help.github.com/articles/github-flavored-markdown/), with filenames like `YYYY-MM-DD-title.md`.
 
