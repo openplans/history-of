@@ -31,7 +31,35 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div class="openplans-top-bar fixed" data-magellan-expedition="" data-options="active_class:current;threshold:0;destination_threshold:-65;throttle_delay:50;fixed_top:0;">
+  <a id="about" class="section-anchor" data-magellan-destination="about"></a>
+  <div class="show-for-medium-up" style="padding-top:8%;"></div>
+  <div class="row some-padding-top">
+    <div class="columns small-11 small-centered medium-8 large-6">
+      <h1><img src="images/openplans-logo-1000.png" class="extra-margin-bottom" alt="OpenPlans"></h1>
+    </div>
+    <div class="columns medium-10 medium-centered text-large medium-text-center">
+      <p>For over ten years, OpenPlans has been an amazing incubator of progressive ideas, talented people, and impactful projects. Maintaining our deeply-held belief in making cities better through technology &amp; participation, we've built well-crafted open source software, advanced open data policies, and increased livability in our cities&mdash;with occasional organizational refreshes along&nbsp;the&nbsp;way. <br><small>(Read more in our history below.)</small></p>
+    </div>
+  </div>
+  <div class="row show-for-medium-up text-center">
+    <div class="columns large-10 large-centered">
+      <a href="#history" class="button round down-button">￬</a>
+      <div class="row some-padding-top some-padding-bottom text-large">
+        <div class="columns medium-4 text-large text-center">
+          <p><a class="button radius shadowed expand" href="https://github.com/openplans/" target="_blank"><span class="octicon octicon-mark-github"></span>&nbsp;Use our code!</a></p>
+        </div>
+        <div class="columns medium-4 text-large text-center">
+          <p><a class="button radius shadowed expand" href="#"><span class="octicon octicon-briefcase"></span>&nbsp;Project List</a></p>
+        </div>
+        <div class="columns medium-4 text-large text-center">
+          <p><a class="button radius shadowed expand" href="#"><span class="octicon octicon-megaphone"></span>&nbsp;The Ol' Blog</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="show-for-medium-up" style="padding-bottom:4%;"></div>
+
+  <div class="openplans-top-bar" data-magellan-expedition="fixed" data-options="active_class:current;threshold:0;destination_threshold:-65;throttle_delay:50;fixed_top:0;">
     <div class="contain-to-grid">
       <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
@@ -60,13 +88,9 @@
     </div>
   </div>
 
-  <a id="about" class="section-anchor" data-magellan-destination="about"></a>
-  <div class="row extra-padding-top">
-    <div class="columns text-large">
-      <p>For over ten years, OpenPlans has been an amazing incubator of people, ideas, and projects. Maintaining our deeply-held belief in better cities thanks to technology and participation, we've built impactful, well-crafted software&mdash;with occasional organizational refreshes along the way.</p>
-    </div>
+  <div style="position:relative;">
+    <a id="history" class="section-anchor"></a>
   </div>
-
   {% for post in site.posts %}
    {% include {{post.layout}}.html %}
   {% endfor %}

@@ -24,13 +24,22 @@
   text-decoration: inherit !important;
 }
 
+.down-button {
+  background-color: #ddd;
+  padding: 0;
+  font-size: 2.5rem;
+  line-height: 1;
+  width: 3rem;
+  height: 3rem;
+}
+
 
 /*--------------------------------------------------
   Layout
 --------------------------------------------------*/
 
 body {
-  padding-top: $topbar-height;
+//  padding-top: $topbar-height;
 }
 .year {
   position: relative;
@@ -89,6 +98,9 @@ body {
   .top-bar.expanded .top-bar-section {
     padding-top: 0;
   }
+}
+[data-magellan-expedition-clone] {
+  visibility: hidden;
 }
 
 .top-bar .current a {

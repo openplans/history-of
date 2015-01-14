@@ -1423,8 +1423,8 @@ $include-html-global-classes: $include-html-classes;
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
- $topbar-breakpoint: 60em; // Change to 9999px for always mobile layout
- $topbar-media-query: "only screen and (min-width:60em)";
+ $topbar-breakpoint: 61em; // Change to 9999px for always mobile layout
+ $topbar-media-query: "only screen and (min-width:61em)";
 
 // Divider Styles
 // $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
