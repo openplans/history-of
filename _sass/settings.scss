@@ -123,7 +123,7 @@ $include-html-global-classes: $include-html-classes;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
-// $info-color: #a0d3e8;
+ $info-color: scale-color($primary-color, $lightness: 90%);
 
 // We use these to control various global styles
  $body-bg: $smoke;
@@ -435,7 +435,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control button text styles.
 // $button-font-family: $body-font-family;
 // $button-font-color: $white;
-// $button-font-color-alt: $oil;
+ $button-font-color-alt: scale-color($primary-color, $lightness: -20%);
 // $button-font-tny: rem-calc(11);
 // $button-font-sml: rem-calc(13);
 // $button-font-med: rem-calc(16);
@@ -966,7 +966,7 @@ $include-html-global-classes: $include-html-classes;
 // $panel-padding: rem-calc(20);
 
 // We use these to set default font colors
-// $panel-font-color: $oil;
+ $panel-font-color: $body-font-color;
 // $panel-font-color-alt: $white;
 
 // $panel-header-adjust: true;
