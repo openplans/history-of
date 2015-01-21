@@ -1,6 +1,6 @@
 ---
-title: 'Vision Zero Map'
+title: 'Shareabouts as a Service'
 layout: milestone
 ---
 
-http://blog.openplans.org/2014/07/what-are-your-concerns-about-street-safety/
+Plan in a Box rebranded as OpenPlans, easy to set up maps for everyone.
