@@ -1,4 +1,5 @@
 exclude: [README.md, Gemfile, Gemfile.lock, bower.json]
+keep_files: [404.html]
 sass:
     sass_dir: _sass
     style: compressed
