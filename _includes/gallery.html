@@ -5,11 +5,11 @@
       <h3>{{ post.title }}</h3>
     </div>
     {% if post.has_content == true %}
-    <div class="columns medium-7 some-padding-top">
+    <div class="columns medium-{{ post.content_column_size }}  some-padding-top">
       {{ post.content }}
     </div>
     {% endif %}
-    <div class="columns{% if post.has_content == true %} medium-5{% endif %} some-padding-top">
+    <div class="columns{% if post.has_content == true %} medium-{{ 12 | minus:post.content_column_size }}{% endif %} some-padding-top">
       <section class="gallery">
         <ul class="clearing-thumbs small-block-grid-{{ post.gallery_columns }}" data-clearing>
           {% for gallery_image in post.gallery_image %}
