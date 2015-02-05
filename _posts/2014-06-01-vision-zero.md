@@ -29,4 +29,6 @@ gallery_caption:
 
 NYC DOT uses a Shareabouts map to collect feedback from thousands of people about unsafer streets. Using a Google Street View interface, participants can drop a pin on the exact spot they want to report. Over 10,500 locations are added, including many reported through community workshops. <a href="http://www.nyc.gov/html/visionzero/pages/maps-and-data/vz-input-map.shtml">Explore the map</a>, and read more about it in <a href="http://nextcity.org/features/view/the-new-cartographers">Next City</a>.
 
-The interface works great on tablets - we added a full-screen mode for mid-sized screens, to support engagement at meetings and public events. Less obvious to users, this is the first Shareabouts map to be fully embedded. With new CORS support, the map is just html and javscript that can be placed into any webpage - here, directly into nyc.gov.
+The interface works great on tablets - we added a full-screen mode for mid-sized screens, to support engagement at meetings and public events. Less obvious to users, this is the first Shareabouts map to be fully embedded. With new CORS support, the map is just html and javscript that can be placed into any webpage - here, directly into nyc.gov. 
+
+<a href="https://github.com/openplans/shareabouts-sv-vision-zero"><span class="octicon octicon-mark-github"> shareabouts-sv-vision-zero</span></a>
