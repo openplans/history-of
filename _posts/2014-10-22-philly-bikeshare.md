@@ -21,6 +21,6 @@ gallery_caption:
   - 
 ---
 
-To narrow down 90 potential bike share locations, Philly empowered residents to comment via Shareabouts or SMS in English and Spanish. Around 10,400 surveys were submitted, providing a lot of detail about how people will use bike share locations, and specific feedback on tweaking locations.  SMS integration comes from our friends at Textizen, with all feedback ending up on the same Shareabouts map.
+To narrow down 90 potential bike share locations, Philly empowered residents to comment via Shareabouts or SMS in English and Spanish. Around 10,400 surveys were submitted, providing a lot of detail about how people will use bike share locations, and specific feedback on tweaking locations.  SMS integration comes from our friends at Textizen, with all feedback ending up on the same Shareabouts map. <a href="https://github.com/openplans/shareabouts-phillybikeshare"><span class="octicon octicon-mark-github"></span></a>
 
 As well as providing a really friendly and fun way to give input, the map and SMS combination supported some responsive outreach work by the city team. Unlike conventional input processes where you wait until the end before evaluating, the team could grab the latest responses on the map to target inp-person outreach at locations that had lower online or text response rates. Lightweight demographic questions helped planners see who was engaging and how that matched local demographics.

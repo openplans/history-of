@@ -7,11 +7,11 @@ image_column_size: 6
 
 OpenPlans and Transportation Alternatives launch uncivilservants.org, our first things-on-a-map project. 
 
-<em>Tired of government employees parking illegally in your neighborhoood?
+<em>Tired of government employees parking illegally in your neighborhoood?</em>
 
-So are a lot of other New Yorkers.
+<em>So are a lot of other New Yorkers.</em>
 
-That's why we are building this web site. Go out and take photos of parking permit abuse in your neighborhood. Together, we will push New York City government to solve this problem.
+<em>That's why we are building this web site. Go out and take photos of parking permit abuse in your neighborhood. Together, we will push New York City government to solve this problem.
 </em>
 
 The site clocked 10,000 page views weekely, and by the end of 2011, over 1,300 photos of violations and 7,463 comments were posted.
