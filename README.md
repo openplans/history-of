@@ -18,7 +18,7 @@ We'll share a [nicely formatted version of this history in early 2015](http://bl
 
 [help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages/)
 
-Run `bundle exec jekyll serve`.
+Run `bower install` and `bundle exec jekyll serve`.
 
 Site should be available at `http://localhost:4000`.
 
