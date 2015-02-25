@@ -1,8 +1,8 @@
 ---
-title: 'PlanningHacks
+title: 'PlanningHacks'
 layout: gallery
 has_content: true
-content_column_size: 4
+content_column_size: 8
 gallery_columns: '1'
 gallery_thumb: 
   - images/2013/03/hacknight.jpg
