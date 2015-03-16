@@ -4,4 +4,4 @@ layout: people
 avatar: 'images/avatars/cholmes.jpg'
 ---
 
-Chris Holmes becomes lead developer on GeoServer.
+Wearer of many hats and leader of OpenGeo for many years, [cholmes](https://twitter.com/opencholmes) was the longest-serving employee at OpenPlans.
