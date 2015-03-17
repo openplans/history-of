@@ -11,3 +11,13 @@ Everyday social computing, mobile technology, and the adoption of "web 2.0" appr
 The Open Planning Project is interested in developing free, open source tools to support citizen engagement in planning.  To that end, we are reaching out to the planning, government, nonprofit, citizen and tech communities to help us explore opportunities and share ideas.  This event should be the first of many, and will be a hands-on workshop aiming to bring together many diverse perspectives.
 
 The workshop will follow the "unconference," or "BarCamp," format, where sessions and talks are proposed and led by the participants of the workshop.
+
+"The Open Planning Project and the Regional Plan Association would like to invite you to an upcoming workshop to brainstorm new technology for participatory city planning.
+
+When: Friday, November 13th, 12:30 – 5:30pm  (followed by a happy hour on our roof).
+
+Where: The Open Planning Project, 148 Lafayette St, NY, NY
+
+What: An afternoon of discussion, brainstorming, and collaborative product designing.
+
+pics?? https://www.flickr.com/photos/27979354@N02/sets/72157622830917005/ (and here's the attendee list http://www.eventbrite.com/e/participatory-planning-tech-workshop-tickets-4756607140"
