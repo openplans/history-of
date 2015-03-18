@@ -1,5 +1,5 @@
 ---
-title: OpenTripPlanner transitions to Software Freedom Conservancy
+title: A new home for OpenTripPlanner
 layout: basic
 column_class: 'medium-11 large-9'
 ---
