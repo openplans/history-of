@@ -12,3 +12,7 @@ The original EveryBlock code was made open source in June 2009. Building on the 
 
 
 October: OpenBlock now a stand-alone, easy to deploy tool. Hack event at MIT media lab
+
+September 2011, v1.0
+
+Boston Globe working with OpenBlock 
