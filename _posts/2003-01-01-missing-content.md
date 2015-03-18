@@ -1,5 +1,5 @@
 ---
-title: 'Lost in the mists of time...'
+title: '...because we don&#39;t!'
 layout: basic
 column_class: 'medium-11 large-9'
 ---
