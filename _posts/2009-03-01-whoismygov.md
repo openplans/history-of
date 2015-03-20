@@ -4,4 +4,6 @@ layout: basic
 column_class: 'medium-11 large-9'
 ---
 
-Work begins on WhoIsMyGov, candiate lookup. Powers TA Candidate survey, shows who your reps are by address. http://blog.openplans.org/2010/09/transportation-alternatives-candidate-survey-2010/
+Work begins on WhoIsMyGov, a candiate lookup tool. Enter your address, find out who represents you. This powers Transportation Alternative's candidate survey, and goes on to be useful in other projects by Phil.
+
+<a href="https://github.com/openplans/WhoIsMyGov"><span class="octicon octicon-mark-github"> WhoIsMyGov</span></a>
