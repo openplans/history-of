@@ -2,7 +2,7 @@
 title: 'Uncivil Servants'
 layout: snapshot
 image: 'images/2007/uncivil-servants.png'
-image_column_size: 6
+image_column_size: 4
 ---
 
 OpenPlans and Transportation Alternatives launch uncivilservants.org, our first things-on-a-map project. 
