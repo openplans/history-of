@@ -9,3 +9,5 @@ In 2010 we started work on OpenBlock, an open source hyperlocal news engine. The
 This project kept Paul and Luke busy for several years, first turning the EveryBlock code into a documented project that others could deploy, and then working with the papers and other users on their own installs and configurations. The work was supported by the Knight Foundation, in partnership with the Boston Globe and Columbia Tribune - tere's their site, <a href="http://neighborhoods.columbiatribune.com/">neighborhoods.columbiatribune.com</a>, and <a href="http://www.columbiatribune.com/news/local/tribune-launches-data-mapping-site-called-neighborhoods/article_5c6a1246-acc2-11e3-8eac-10604b9f6eda.html">their write-up of the project</a>.
 
 By October, it was possible for anyone to get their own OpenBlock running, and we had a hack event at the MIT Media Lab to work on it. 
+
+<a href="https://github.com/openplans/openblock"><span class="octicon octicon-mark-github"> openblock</span></a>  
