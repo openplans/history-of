@@ -5,18 +5,24 @@ has_content: true
 content_column_size: 6
 gallery_columns: '2'
 gallery_thumb: 
+  - images/2009/planningtech-1.jpg
+  - images/2009/planningtech-2.jpg
   - images/2009/siting-bike-racks.jpg
   - images/2009/ecosystem-land-use.jpg
   - images/2009/visioning.jpg
   - images/2009/petri-dish.jpg
   - images/2009/mta-financial-crisis.jpg
 gallery_image:
+  - images/2009/planningtech-1.jpg
+  - images/2009/planningtech-2.jpg
   - images/2009/siting-bike-racks.jpg
   - images/2009/ecosystem-land-use.jpg
   - images/2009/visioning.jpg
   - images/2009/petri-dish.jpg
   - images/2009/mta-financial-crisis.jpg
 gallery_caption: 
+  - Discussions in the penthouse at 148 Lafayette
+  - Discussions in the penthouse at 148 Lafayette
   - Siting bike racks, diagram of a micro-planning process
   - Diagram of a better approach to land use data
   - Diagram of the urban design visioning process
