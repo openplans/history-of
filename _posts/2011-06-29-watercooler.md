@@ -17,4 +17,4 @@ IRC was the chat tool of choice at OpenPlans, but we also kept a lively backchan
  * Redistricting Massachusetts
  * Videos of every NYC block
  * Running data 
- * and some commentary on our new watertower outside
+ * and some commentary on a new water tower taking shape outside

@@ -1,7 +1,7 @@
 ---
-title: 'Trimet OTP'
+title: 'Lots of OpenTripPlanner'
 layout: snapshot
-image: 'images/2011/TriMet_-Regional-Trip-Planner-RTP'
+image: 'images/2011/TriMet_-Regional-Trip-Planner-RTP.jpg'
 image_column_size: 6
 ---
 
