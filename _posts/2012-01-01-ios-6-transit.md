@@ -1,11 +1,14 @@
 ---
-title: iOS 6 Transit Support
-layout: basic
-column_class: 'medium-11 large-9'
+title: Going for a Joyride 
+layout: snapshot
+image: 'images/2012/joyride.jpg'
+image_column_size: 4
 ---
 
-iOS 6 is released without transit support. OpenPlans leads the charge to develop an open transit app for iOS 6, with a hugely successful crowdfunding campaign. Intern Matt Conway builds a public dashboard to show where open transit data is available in North America. In the end, OpenPlans doesn't build the app, but there is a groundswell of support for open transit data.
+Apple's latest operating system drops Google Maps, to much general amusement from the technorati about the poor quality of the replacement Maps application. We're more concerned with the absence of transit directions. So we <a href="http://www.governing.com/templates/gov_print_article?id=164502296">launch a Kickstarter campaign for a mobile app to fill the gap</a>. 
 
-iOS6, no transit. Kickstarter, successful, but we can't sustain the team to work on it. http://blog.openplans.org/2012/07/opentripplanner-mobile-app-for-iphone-kickstarter-campaign-some-of-your-questions-answered/
+The crowdfunding campaign is sucessful, and we launch a beta of Joyride, our open source app. But assembling data for each agency is not trivial, and we can't sustain the project long-term so decide to refund our backers. As part of wider open transit data activities this year, intern Matt Conway builds a public dashboard to show where open transit data is available in North America.
 
-http://www.governing.com/templates/gov_print_article?id=164502296
+<a href="https://github.com/opentripplanner/OpenTripPlanner-iOS"><span class="octicon octicon-mark-github"> OpenTripPlanner-iOS a.k.a. Joyride </span></a>
+
+<a href="https://github.com/conveyal/transit-data-dashboard"><span class="octicon octicon-mark-github"> transit-data-dashboard</span></a>

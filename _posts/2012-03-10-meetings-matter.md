@@ -4,4 +4,10 @@ layout: basic
 column_class: 'medium-11 large-9'
 ---
 
-MM launches, not enough community input. Doesn't get Knight funding. We stop working on it.
+What if public meetings were easier to find? How might your civic participation change if you could discover, track and attend meetings that mattered to you?
+
+We spent some time on this challenge in 2012. Seeing that people couldn't easily get basic schedule information for meetings near them, we set to work on Meetings Matters. A crowd-sourced directory of events, Meeting Matters was intended as a <a href="http://lanyrd.com/">Lanyrd-like</a> website where enthusiasts for a particular topic (e.g. parks) would ensure the public directory contains all upcoming events. And interested locals would then use this info to make plans to attend. Once the directory was filling up with meetings and published as calendar feeds, more users would be attracted, and a virtuous cycle of information leading to participation would develop. An ecosystem of widgets, publishing tools, etc. would develop.
+
+At least, that was what we hoped. The project wasn't successful, because nobody found the limited meeting info in it useful, and we didn't have put enough effort into building a core base of users who cared. In retrospect, perhaps we should have focused on publishing tools for city staff, which could have solved a real problem in a way that might possibly earn some revenue. 
+
+<a href="https://github.com/openplans/meetingmatters"><span class="octicon octicon-mark-github"> meetingmatters</span></a>
