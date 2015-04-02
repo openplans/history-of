@@ -5,29 +5,29 @@ has_content: true
 content_column_size: 8
 gallery_columns: '3'
 gallery_thumb: 
-  - images/2011/transportationcamp-east-01.jpg
-  - images/2011/transportationcamp-east-02.jpg
-  - images/2011/transportationcamp-east-03.jpg
-  - images/2011/transportationcamp-east-04.jpg
-  - images/2011/transportationcamp-east-05.jpg
-  - images/2011/transportationcamp-east-06.jpg
-  - images/2011/transportationcamp-east-07.jpg
-  - images/2011/transportationcamp-east-08.jpg
-  - images/2011/transportationcamp-east-09.jpg
-  - images/2011/transportationcamp-east-10.jpg
-  - images/2011/transportationcamp-east-11.jpg
-  - images/2011/transportationcamp-west-01.jpg
-  - images/2011/transportationcamp-west-02.jpg
-  - images/2011/transportationcamp-west-03.jpg
-  - images/2011/transportationcamp-west-04.jpg
-  - images/2011/transportationcamp-west-05.jpg
-  - images/2011/transportationcamp-west-06.jpg
-  - images/2011/transportationcamp-west-07.jpg
-  - images/2011/transportationcamp-west-08.jpg
-  - images/2011/transportationcamp-west-09.jpg
-  - images/2011/transportationcamp-west-10.jpg
-  - images/2011/transportationcamp-west-11.jpg
-  - images/2011/transportationcamp-west-12.jpg
+  - images/2011/th-transportationcamp-east-01.jpg
+  - images/2011/th-transportationcamp-east-02.jpg
+  - images/2011/th-transportationcamp-east-03.jpg
+  - images/2011/th-transportationcamp-east-04.jpg
+  - images/2011/th-transportationcamp-east-05.jpg
+  - images/2011/th-transportationcamp-east-06.jpg
+  - images/2011/th-transportationcamp-east-07.jpg
+  - images/2011/th-transportationcamp-east-08.jpg
+  - images/2011/th-transportationcamp-east-09.jpg
+  - images/2011/th-transportationcamp-east-10.jpg
+  - images/2011/th-transportationcamp-east-11.jpg
+  - images/2011/th-transportationcamp-west-01.jpg
+  - images/2011/th-transportationcamp-west-02.jpg
+  - images/2011/th-transportationcamp-west-03.jpg
+  - images/2011/th-transportationcamp-west-04.jpg
+  - images/2011/th-transportationcamp-west-05.jpg
+  - images/2011/th-transportationcamp-west-06.jpg
+  - images/2011/th-transportationcamp-west-07.jpg
+  - images/2011/th-transportationcamp-west-08.jpg
+  - images/2011/th-transportationcamp-west-09.jpg
+  - images/2011/th-transportationcamp-west-10.jpg
+  - images/2011/th-transportationcamp-west-11.jpg
+  - images/2011/th-transportationcamp-west-12.jpg
 gallery_image:
   - images/2011/transportationcamp-east-01.jpg
   - images/2011/transportationcamp-east-02.jpg

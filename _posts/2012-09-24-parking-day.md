@@ -2,16 +2,17 @@
 title: 'Park(ing) Day'
 layout: gallery
 has_content: true
-content_column_size: 4
-gallery_columns: '5'
+content_column_size: 3
+gallery_columns: '1'
 gallery_thumb: 
-  - images/2015/01/th-farewell-rebecca-rebecca.jpg
+  - images/2012/parking-day-2.jpg
+  - images/2012/parking-day-1.jpg
 gallery_image:
-  - images/2015/01/farewell-rebecca-rebecca.jpg
+  - images/2012/parking-day-2.jpg
+  - images/2012/parking-day-1.jpg
 gallery_caption: 
   - 
+  -
 ---
 
-http://blog.openplans.org/2012/09/memories-from-parking-day-2012-crosby-howard-st/
-
-Advantage of an office full of outdoor furniture.
+The advantage of an office full of outdoor furniture... easy to participate in Park(ing) Day!
